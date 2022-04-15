@@ -15,14 +15,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class CartController implements CartApi {
 
-    @Autowired
     private CartService cartService;
 
-    @Autowired
     Cart cart;
 
-    @Autowired
     CartMapper cartmapper;
+
+    @Autowired
+    public CartController(CartService cartService, Cart cart, CartMapper cartmapper) {
+        this.cartService = cartService;
+        this.cart = cart;
+        this.cartmapper = cartmapper;
+    }
 
     @Override
     public ResponseEntity<CartDto> addToCart(String productId) {
