@@ -131,6 +131,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-cache:2.6.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.18" level="project" />
     <orderEntry type="library" name="Maven: com.stoyanr:evictor:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:2.10.9.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.6.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.6.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.6" level="project" />
