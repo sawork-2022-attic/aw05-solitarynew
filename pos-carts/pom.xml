@@ -58,6 +58,11 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <version>RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 
 
